@@ -1,29 +1,30 @@
 # GoSend 
 
-**GoSend** is a static web application powered by [Eleventy (11ty)](https://www.11ty.dev/) and [Netlify CMS](https://www.netlifycms.org/). It is a marketing tool built for **Liberian businesses** to reach potential customers using personalized **WhatsApp messaging** — helping businesses streamline communication and grow their audience.
+**GoSend** is a web application powered by [Eleventy (11ty)](https://www.11ty.dev/) and [Netlify CMS](https://www.netlifycms.org/). It is a marketing tool built for **Liberian businesses** to reach potential customers using personalized **WhatsApp messaging** — helping businesses streamline communication and grow their audience.
 
 ---
 
 ## 🌟 Features
 
-- 🔗 **WhatsApp Integration** – Send custom messages directly to WhatsApp users.
-- 📝 **Content Managed via Netlify CMS** – Easily manage marketing content and campaigns.
-- 🧠 **Customer Segmentation** – Target specific groups with personalized messages.
-- 💬 **Dynamic Message Personalization** – Use variables like name, location, or product.
-- 📈 **Campaign Insights** – (Planned) Track message delivery and response rates.
-- ⚡ **Blazing-Fast Static Site** – Built with Eleventy for performance and SEO.
+**WhatsApp Integration** – Send custom messages directly to WhatsApp users.
+**Customer Segmentation** – Target specific groups with personalized messages.
+**Dynamic Message Personalization** – Use variables like name, location, or product.
+**Campaign Insights** – (Planned) Track message delivery and response rates.
+**Blazing-Fast Static Site** – Built with Eleventy for performance and SEO.
 
 ---
 
-## 🚀 Why GoSend?
+## Why GoSend?
 
-GoSend is designed to give **Liberian entrepreneurs and small businesses** an affordable and easy-to-use tool for digital communication. It combines the **reach of WhatsApp** with the **simplicity of a static site** and **powerful content management** using Netlify CMS.
+GoSend is designed to give **Liberian entrepreneurs and small businesses** an affordable and easy-to-use tool for digital communication. It combines the **reach of WhatsApp** with the **simplicity of a webapp**. 
 
 ---
 
 ## 🛠 Tech Stack
 
 - **Frontend**: HTML, CSS, JS (via Eleventy templates)
+- - **Backend**: (To be added — e.g., Node.js, Firebase, etc.)
+- **Database**: (Optional — MongoDB, Firebase, etc.)
 - **SSG**: [Eleventy (11ty)](https://11ty.dev)
 - **CMS**: [Netlify CMS](https://www.netlifycms.org/)
 - **Hosting**: [Netlify](https://netlify.com)
@@ -31,9 +32,9 @@ GoSend is designed to give **Liberian entrepreneurs and small businesses** an af
 
 ---
 
-## 📦 Getting Started
+##  Getting Started
 
-### 🖥 Local Development
+### Local Development
 
 1. **Clone the repo:**
    ```bash
