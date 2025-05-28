@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoSend - Stats</title>
+    <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body>
+
+    <h1>📊 Message Stats</h1>
+
+    <div class="stats-grid">
+        <div class="stat-box success">Sent Successfully: <strong id="sentSuccess">0</strong></div>
+        <div class="stat-box failed">Failed to Send: <strong id="sentFailed">0</strong></div>
+        <div class="stat-box dedup">Deduplicated: <strong id="deduplicated">0</strong></div>
+        <div class="stat-box total">Total: <strong id="totalSent">201</strong></div>
+    </div>
+
+    <p class="progress-label">Current sending progress: <span id="currentProgress">0/201</span></p>
+
+    <div class="buttons">
+        <button onclick="retryFailed()">Retry Failed</button>
+        <button onclick="exportResult()">Export Result</button>
+        <button onclick="continueSending()">Continue</button>
+    </div>
+
+    <p class="notice">
+        Please do not leave — messages are sent every 2 seconds.<br />
+        Every 80 messages are grouped with a 3–5 minute break in between.
+    </p>
+
+    <footer>
+        <a href="#">Help Center</a> |
+        <a href="#">FAQ</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Refund Policy</a>
+    </footer>
+
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

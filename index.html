@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoSend - Message Sender</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <h1>GoSend Message Sender</h1>
+
+    <label for="messageText">Message Text</label>
+    <textarea id="messageText" rows="4" placeholder="Type your WhatsApp message here..."></textarea>
+
+    <label for="phoneNumbers">WhatsApp Numbers</label>
+    <input type="text" id="phoneNumbers" placeholder="e.g. +231770516578, +2317706032916">
+    <small>Include country code. Separate multiple numbers with commas.</small>
+
+    <label for="messagePreview">Message Preview</label>
+    <textarea id="messagePreview" rows="4" readonly></textarea>
+    <button class="secondary" onclick="saveTemplate()">Save as Template</button>
+
+    <label for="interval">Sending Interval (seconds)</label>
+    <input type="number" id="interval" value="10" min="1">
+
+    <div class="button-row">
+        <button class="primary" onclick="sendMessage()">Send</button>
+    </div>
+
+    <footer>
+        <a href="#">Help Center</a>
+        <a href="#">FAQ</a>
+        <a href="#">Activate Code</a>
+        <a href="#">Upgrade</a>
+        <a href="#">Export</a>
+        <a href="#">Stats</a>
+        <a href="#">More</a>
+    </footer>
+
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoSend Pro</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <h1>GoSend Pro</h1>
+
+    <section>
+        <label for="messageText">Message Text</label>
+        <textarea id="messageText" rows="4" placeholder="Type your message here..."></textarea>
+        <button class="secondary" onclick="saveTemplate()">Save as Template</button>
+    </section>
+
+    <section>
+        <label for="phoneNumbers">WhatsApp Numbers</label>
+        <input type="text" id="phoneNumbers" placeholder="+231770516578, +2317706032916">
+        <small>Country code in front, separate using commas</small>
+    </section>
+
+    <section>
+        <label for="labelSelect">Select the label you have</label>
+        <input type="text" id="labelSelect" placeholder="Enter label or group name">
+
+        <div class="options">
+            <label><input type="checkbox" id="sendLabel"> Send to label member 1 by 1</label>
+            <label><input type="checkbox" id="sendGroup"> Send group number 1 by 1</label>
+        </div>
+    </section>
+
+    <section>
+        <label>Upload Excel Numbers</label>
+        <input type="file" id="excelUpload">
+        <p><a href="#">Download Excel template</a>, fill it out, and upload it.</p>
+        <button onclick="deleteUploadedNumbers()">Delete numbers</button>
+    </section>
+
+    <section>
+        <label for="interval">Sending Interval (seconds)</label>
+        <input type="number" id="interval" value="10" min="1">
+        <p>Sending settings: Messages will be sent at the interval you set</p>
+    </section>
+
+    <section class="attachments">
+        <h3>Send Attachment</h3>
+        <button>Image</button>
+        <button>Video</button>
+        <button>Doc</button>
+        <button>Contact</button>
+    </section>
+
+    <button class="primary" onclick="sendProMessage()">Send</button>
+
+    <footer>
+        <a href="#">Help Center</a>
+        <a href="#">FAQ</a>
+        <a href="#">Activate Code</a>
+        <a href="#">Upgrade</a>
+        <a href="#">Export</a>
+        <a href="#">Stats</a>
+        <a href="#">More</a>
+        <a href="#">Pro</a>
+        <a href="#">Simple</a>
+    </footer>
+
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
