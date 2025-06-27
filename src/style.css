@@ -1,3 +1,74 @@
+/* For the log in page */
+
+body.login-page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px 25px;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.link-text {
+    font-size: 0.9rem;
+    margin-top: 12px;
+}
+
+.link-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-text a:hover {
+    text-decoration: underline;
+}
+
+
 /* For the welcome page */
 body {
     margin: 0;
@@ -56,10 +127,9 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bff;
+    background-color: #8ec380;
     padding: 10px 20px;
     color: white;
-    border-bottom: 3px solid #0056b3;
 }
 
 .logo-container {
@@ -83,7 +153,7 @@ h1 {
     padding: 6px 12px;
     margin-left: 10px;
     border-radius: 4px;
-    color: #007bff;
+    color: #ffc107;
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.2s;
@@ -96,7 +166,6 @@ h1 {
 
 .tip-box {
     background-color: #e9f7ff;
-    border-left: 4px solid #17a2b8;
     padding: 1rem;
     margin-bottom: 25px;
     border-radius: 6px;

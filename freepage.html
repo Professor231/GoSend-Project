@@ -2,64 +2,63 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GoSend - Message Sender</title>
-  <link rel="stylesheet" href="./src/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoSend - Message Sender</title>
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 
 <body>
 
-  <!-- Top Header with Logo and Nav Buttons -->
-  <header class="top-header">
-    <div class="logo-container">
-      <img src="./src/logo.png" alt="GoSend Logo" class="logo" />
-      <span class="logo-text">GoSend</span>
-    </div>
-    <nav class="top-nav">
-      <button class="nav-btn">Simple</button>
-      <button class="nav-btn">Pro</button>
-      <button class="nav-btn">Stats</button>
-      <button class="nav-btn">Export</button>
-    </nav>
-  </header>
+    <!-- Top Header with Logo and Nav Buttons -->
+    <header class="top-header">
+        <div class="logo-container">
+            <img src="./src/images/Go digital png logo PNG BG.png" alt="GoSend Logo" class="logo" />
 
-  <!-- Main Content -->
-  <main class="main-content">
-    <h1>GoSend Message Sender</h1>
-    uhzitjeoigz9royjreoyz
+        </div>
+        <nav class="top-nav">
+            <button class="nav-btn">Simple</button>
+            <button class="nav-btn">Pro</button>
+            <button class="nav-btn">Stats</button>
+            <button class="nav-btn">Export</button>
+        </nav>
+    </header>
 
-    <label for="messageText">Message Text</label>
-    <textarea id="messageText" rows="4" placeholder="Type your WhatsApp message here..."></textarea>
+    <!-- Main Content -->
+    <main class="main-content">
 
-    <label for="phoneNumbers">WhatsApp Numbers</label>
-    <input type="text" id="phoneNumbers" placeholder="e.g. +231770516578, +2317706032916">
-    <small>Include country code. Separate multiple numbers with commas.</small>
 
-    <label for="messagePreview">Message Preview</label>
-    <textarea id="messagePreview" rows="4" readonly></textarea>
-    <button class="secondary" onclick="saveTemplate()">Save as Template</button>
+        <label for="messageText">Message Text</label>
+        <textarea id="messageText" rows="4" placeholder="Type your WhatsApp message here..."></textarea>
 
-    <label for="interval">Sending Interval (seconds)</label>
-    <input type="number" id="interval" value="10" min="1">
+        <label for="phoneNumbers">WhatsApp Numbers</label>
+        <input type="text" id="phoneNumbers" placeholder="e.g. +231770516578, +2317706032916">
+        <small>Include country code. Separate multiple numbers with commas.</small>
 
-    <div class="button-row">
-      <button class="primary" onclick="sendMessage()">Send</button>
-    </div>
-  </main>
+        <label for="messagePreview">Message Preview</label>
+        <textarea id="messagePreview" rows="4" readonly></textarea>
+        <button class="secondary" onclick="saveTemplate()">Save as Template</button>
 
-  <!-- Footer -->
-  <footer>
-    <a href="#">Help Center</a>
-    <a href="#">FAQ</a>
-    <a href="#">Activate Code</a>
-    <a href="#">Upgrade</a>
-    <a href="#">Export</a>
-    <a href="#">Stats</a>
-    <a href="#">More</a>
-  </footer>
+        <label for="interval">Sending Interval (seconds)</label>
+        <input type="number" id="interval" value="10" min="1">
 
-  <script src="./src/script.js"></script>
+        <div class="button-row">
+            <button class="primary" onclick="sendMessage()">Send</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#">Help Center</a>
+        <a href="#">FAQ</a>
+        <a href="#">Activate Code</a>
+        <a href="#">Upgrade</a>
+        <a href="#">Export</a>
+        <a href="#">Stats</a>
+        <a href="#">More</a>
+    </footer>
+
+    <script src="./src/script.js"></script>
 </body>
 
 </html>
