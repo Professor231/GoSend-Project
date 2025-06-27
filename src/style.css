@@ -1,3 +1,132 @@
+/* For the welcome page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.actions h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.get-started-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.get-started-list li {
+    margin: 10px 0;
+}
+
+.get-started-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.get-started-list a:hover {
+    text-decoration: underline;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+    border-bottom: 3px solid #0056b3;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 32px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.top-nav .nav-btn {
+    background-color: white;
+    border: none;
+    padding: 6px 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+    color: #007bff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.top-nav .nav-btn:hover {
+    background-color: #e6e6e6;
+}
+
+
+.tip-box {
+    background-color: #e9f7ff;
+    border-left: 4px solid #17a2b8;
+    padding: 1rem;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.footer-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-options label {
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-options a {
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.footer-options a:hover {
+    text-decoration: underline;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     padding: 20px;

@@ -1,3 +1,24 @@
+//for the welcome page
+
+// Set user's name (you can retrieve from Chrome storage or token)
+chrome.storage.sync.get(["userName", "skipWelcome"], (data) => {
+  const name = data.userName || "there";
+  document.getElementById("welcomeUser").innerText = `Welcome, ${name} 👋`;
+
+  // Auto-redirect to dashboard if user has opted to skip welcome
+  if (data.skipWelcome) {
+    window.location.href = "dashboard.html";
+  }
+});
+
+// Save skipWelcome preference
+document.addEventListener("DOMContentLoaded", () => {
+  const checkbox = document.getElementById("skipWelcome");
+  checkbox.addEventListener("change", function () {
+    chrome.storage.sync.set({ skipWelcome: this.checked });
+  });
+});
+
 // for the sample/index page
 const messageText = document.getElementById("messageText");
 const messagePreview = document.getElementById("messagePreview");
