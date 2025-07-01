@@ -10,7 +10,21 @@
 
 <body>
 
-    <h1>📊 Message Stats</h1>
+    <!-- Top Header with Logo and Nav Buttons -->
+    <header class="top-header">
+        <div class="logo-container">
+            <img src="./src/images/Go digital png logo PNG BG.png" alt="GoSend Logo" class="logo" />
+
+        </div>
+        <nav class="top-nav">
+            <button class="nav-btn">Simple</button>
+            <button class="nav-btn">Pro</button>
+            <button class="nav-btn">Stats</button>
+            <!-- <button class="nav-btn">Export</button> -->
+        </nav>
+    </header>
+
+    <p class="progress-label">Current sending progress: <span id="currentProgress">0/201</span></p>
 
     <div class="stats-grid">
         <div class="stat-box success">Sent Successfully: <strong id="sentSuccess">0</strong></div>
@@ -19,7 +33,7 @@
         <div class="stat-box total">Total: <strong id="totalSent">201</strong></div>
     </div>
 
-    <p class="progress-label">Current sending progress: <span id="currentProgress">0/201</span></p>
+
 
     <div class="buttons">
         <button onclick="retryFailed()">Retry Failed</button>

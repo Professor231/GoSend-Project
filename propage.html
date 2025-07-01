@@ -9,7 +9,21 @@
 </head>
 
 <body>
-    <h1>GoSend Pro</h1>
+
+    <!-- Top Header with Logo and Nav Buttons -->
+    <header class="top-header">
+        <div class="logo-container">
+            <img src="./src/images/Go digital png logo PNG BG.png" alt="GoSend Logo" class="logo" />
+
+        </div>
+        <nav class="top-nav">
+            <button class="nav-btn">Simple</button>
+            <button class="nav-btn">Pro</button>
+            <button class="nav-btn">Stats</button>
+            <!-- <button class="nav-btn">Export</button> -->
+        </nav>
+    </header>
+    <!-- <h1>GoSend Pro</h1> -->
 
     <section>
         <label for="messageText">Message Text</label>
@@ -34,9 +48,10 @@
     </section>
 
     <section>
+        <p><a href="#">Download Excel template</a>, fill it out, and upload it.</p>
         <label>Upload Excel Numbers</label>
         <input type="file" id="excelUpload">
-        <p><a href="#">Download Excel template</a>, fill it out, and upload it.</p>
+
         <button onclick="deleteUploadedNumbers()">Delete numbers</button>
     </section>
 
